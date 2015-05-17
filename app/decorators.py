@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+
+# decorators.py
+# 装饰器文件
+# 权限控制
+
 from functools import wraps
 from flask import abort
 from flask.ext.login import current_user
