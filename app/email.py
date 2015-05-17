@@ -1,3 +1,9 @@
+# -*- coding: UTF-8 -*-
+# !/usr/bin/python
+
+# email.py
+# 实现收发邮件功能
+
 from threading import Thread
 from flask import current_app,render_template
 from flask.ext.mail import Message
